@@ -1,0 +1,15 @@
+.text {
+    box-sizing: border-box;
+}
+.fname {
+    box-sizing: border-box;
+    border: 2px solid dodgerblue;
+    color: red;
+}
+.fname::after {
+    content: "f00d";
+}
+.container {
+    width: 250px;
+    border: none;
+}

@@ -1,0 +1,17 @@
+p {
+    padding-left: 35px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+.laquo::before {
+    content: "\00ab";
+    color: red;
+    float: left;
+    font-size: 35px;
+}
+.raquo::after {
+    content: "\00bb";
+    color: red;
+    padding-left: 200px;
+    font-size: 35px;
+}

@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: coral;
+}
+li {
+    float: left;
+    border-right:1px solid darkred;
+}
+li a {
+    display: block;
+    padding: 6px 12px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+}
