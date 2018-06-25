@@ -1,0 +1,28 @@
+table {
+ border-collapse: collapse;
+}
+table, td, tr {
+    border: 1px solid black;
+}
+table, tr{
+  border: none;
+}
+tr, td {
+    height: 20px;
+    width: 20px;
+}
+.side {
+ text-align: right;
+  border-style: none;
+  padding-right: 15px;
+}
+td.sideh {
+  border-style: none;
+  text-align: center;
+  padding-top: 15px;
+}
+td.sideh1 {
+  border: none;
+  text-align: center;
+  padding-top: 15px;
+}
