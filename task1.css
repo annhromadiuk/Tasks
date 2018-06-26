@@ -14,7 +14,8 @@ li a {
     padding: 7px 14px;
     background-color: #dddddd;
     color: darkred;
-    text-align: center;
+    /* Ця властивість тут зайва */
+    /*text-align: center;*/
     text-decoration: none;
 }
 li a:hover {

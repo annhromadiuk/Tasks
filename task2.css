@@ -1,14 +1,19 @@
-div.container {
+.container {
     position: relative;
     background-color: green;
     width: 350px;
     height: 70px;
 }
-p {
+.container p {
     color: white;
-    padding: 25px 0 0 20px;
+    /*padding: 25px 0 0 20px;*/
+    /* Можна ще було б зробити так*/
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    margin: auto;
 }
-div.ableft {
+.container .ableft {
     position: absolute;
     top: 0px;
     left: 0;
@@ -16,7 +21,7 @@ div.ableft {
     height: 5px;
     background-color: white;
 }
-div.abright {
+.container .abright {
     position: absolute;
     top: 0px;
     right: 0;
@@ -24,7 +29,7 @@ div.abright {
     height: 5px;
     background-color: white;
 }
-div.absolute {
+.container .absolute {
     position: absolute;
     bottom: 0px;
     right: 0;
@@ -32,7 +37,7 @@ div.absolute {
     height: 5px;
     background-color: white;
 }
-div.abbottom {
+.container .abbottom {
     position: absolute;
     bottom: 0px;
     left: 0;
