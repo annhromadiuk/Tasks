@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.items {
+    padding: 20px 30px;
+}
