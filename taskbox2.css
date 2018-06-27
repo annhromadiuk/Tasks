@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.items {
+    padding: 20px 30px;
+    border: 1px solid black;
+    margin: 12px;
+    background-color: #d0d9e8;
+    text-align: center;
+    border-radius: 5px;
+}
