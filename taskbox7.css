@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    position: relative;
+    width: 170px;
+    height: 170px;
+    border: 20px solid red;
+    border-radius: 90px;
+}
+.items {
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 25px;
+}
