@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 80px;
+    border: 5px solid black;
+    margin: 8px;
+}
+.items {
+     width: 60px;
+     background-color: red;
+ }
+
+.side {
+    display: flex;
+    position: absolute;
+    width: 7px;
+    height: 25px;
+    background-color: black;
+    margin-top: 22px;
+    margin-left: 195px;
+}
+.items1 {
+    width: 120px;
+    background-color: yellow;
+}
+.items2 {
+    width: 200px;
+    background-color: green;
+}
